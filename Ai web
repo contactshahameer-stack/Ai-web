@@ -1,0 +1,12 @@
+export default function Home() {
+  return (
+    <div style={{textAlign:"center",padding:"100px"}}>
+      <h1>CodeWo Pro AI</h1>
+      <p>AI Coding SaaS Platform</p>
+
+      <a href="/signup">
+        <button style={{padding:"10px 20px",fontSize:"16px",cursor:"pointer"}}>Get Started</button>
+      </a>
+    </div>
+  );
+}
